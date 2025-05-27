@@ -1,6 +1,4 @@
 import Hero from "@/components/sections/Hero";
-import SocialProof from "@/components/sections/SocialProof";
-import TrustedBy from "@/components/sections/TrustedBy";
 import AboutUs from "@/components/sections/AboutUs";
 import FeaturedProduct from "@/components/sections/FeaturedProduct";
 import RoutineTimeline from "@/components/sections/RoutineTimeline";

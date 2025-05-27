@@ -2,7 +2,7 @@
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Separator } from "@/components/ui/separator"
-import { Quote, Star } from "lucide-react"
+import { Star } from "lucide-react"
 import { motion, useAnimation, useInView } from "framer-motion"
 import { useEffect, useRef, useState } from "react"
 
@@ -153,7 +153,7 @@ export function AnimatedTestimonials({
                   </div>
 
                   <div className="relative mb-4 md:mb-6 flex-1 overflow-y-auto">
-                    <p className="relative z-10 text-base md:text-lg leading-snug md:leading-relaxed">"{testimonial.content}"</p>
+                    <p className="relative z-10 text-base md:text-lg leading-snug md:leading-relaxed">{testimonial.content}</p>
                   </div>
 
                   <Separator className="my-3 md:my-4" />
