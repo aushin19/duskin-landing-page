@@ -1,7 +1,6 @@
 "use client"
 
 import { motion } from 'framer-motion'
-import Link from 'next/link'
 import Image from 'next/image'
 
 const AboutUs = () => {
@@ -22,7 +21,7 @@ const AboutUs = () => {
             transparent, effective solutions backed by rigorous scientific testing.
           </p>
           <p className="mb-8">
-            Founded by a team of dermatologists and biochemists, we're committed to 
+            Founded by a team of dermatologists and biochemists, we&apos;re committed to 
             developing products that deliver measurable results. We believe in clean 
             formulations, sustainable practices, and the perfect balance of science and nature.
           </p>

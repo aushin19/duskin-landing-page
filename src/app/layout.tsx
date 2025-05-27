@@ -3,7 +3,7 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import FirebaseAnalytics from "@/components/FirebaseAnalytics";
+import AnalyticsWrapper from "@/components/AnalyticsWrapper";
 import StageWise from "@/components/StageWise";
 
 // Optimize font loading
@@ -44,7 +44,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <FirebaseAnalytics />
+        <AnalyticsWrapper />
         {/* StageWise Toolbar - only renders in development */}
         <StageWise />
       </body>

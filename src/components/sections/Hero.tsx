@@ -53,7 +53,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
         >
           <Image
-            src="https://placehold.co/800x1000/f5f5f5/000000?text=DUSKIN+PRODUCT"
+            src="/duskin-tube.png"
             alt="DUSKIN Skincare Product"
             fill
             className="object-contain"

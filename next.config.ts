@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: 'standalone',
   images: {
     remotePatterns: [
       {
@@ -15,10 +16,8 @@ const nextConfig: NextConfig = {
     formats: ['image/webp'],
   },
   experimental: {
-    optimizeCss: true,
     optimizePackageImports: ['framer-motion'],
   },
-  swcMinify: true,
   compress: true,
   productionBrowserSourceMaps: false,
 };

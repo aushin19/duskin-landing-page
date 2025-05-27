@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, useCallback } from 'react'
 import { motion } from 'framer-motion'
 
 const Testimonials = () => {
@@ -30,9 +30,9 @@ const Testimonials = () => {
     }
   ]
   
-  const nextTestimonial = () => {
+  const nextTestimonial = useCallback(() => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length)
-  }
+  }, [testimonials.length])
   
   const prevTestimonial = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + testimonials.length) % testimonials.length)
@@ -45,7 +45,7 @@ const Testimonials = () => {
     }, 5000)
     
     return () => clearInterval(interval)
-  }, [])
+  }, [nextTestimonial])
   
   return (
     <section id="testimonials" className="py-16 md:py-24">
@@ -91,7 +91,7 @@ const Testimonials = () => {
                     >
                       <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.51.88-3.995 2.618-3.995 5.849h4v10h-10zm-14 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.511.88-3.996 2.618-3.996 5.849h3.983v10h-9.983z" />
                     </svg>
-                    <p className="text-lg md:text-xl mb-6">"{testimonial.quote}"</p>
+                    <p className="text-lg md:text-xl mb-6">&ldquo;{testimonial.quote}&rdquo;</p>
                     <div>
                       <p className="font-medium">{testimonial.name}</p>
                       <p className="text-sm text-black/70">{testimonial.info}</p>

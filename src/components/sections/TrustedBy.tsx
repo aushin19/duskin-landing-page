@@ -41,7 +41,7 @@ const TrustedBy = () => {
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
         >
-          {partners.map((partner, index) => (
+          {partners.map((partner) => (
             <motion.div 
               key={partner.name} 
               className="w-full h-20 relative"

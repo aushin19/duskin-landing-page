@@ -2,8 +2,10 @@
 
 import { useEffect, useState } from 'react';
 
+// Using a simpler approach to avoid TS typing issues
 export default function StageWise() {
-  const [StagewiseToolbar, setStagewiseToolbar] = useState<any>(null);
+  // Using type casting to address the ESLint issue
+  const [StagewiseToolbar, setStagewiseToolbar] = useState<React.ElementType | null>(null);
   
   useEffect(() => {
     // Only run in development mode and on client side

@@ -1,12 +1,11 @@
 "use client"
 
 import { motion } from 'framer-motion'
-import { useState, useRef } from 'react'
+import { useState } from 'react'
 
 const RoutineTimeline = () => {
   const [activeStep, setActiveStep] = useState<number | null>(null)
   const [hoveredStep, setHoveredStep] = useState<number | null>(null)
-  const [showMobileControls, setShowMobileControls] = useState(false)
 
   const routineSteps = [
     {
@@ -80,49 +79,6 @@ const RoutineTimeline = () => {
       } 
     }
   }
-
-  // Handle step navigation for mobile
-  const nextStep = () => {
-    if (activeStep === null) {
-      setActiveStep(0);
-    } else if (activeStep < routineSteps.length - 1) {
-      setActiveStep(activeStep + 1);
-    }
-  };
-
-  const prevStep = () => {
-    if (activeStep !== null && activeStep > 0) {
-      setActiveStep(activeStep - 1);
-    }
-  };
-
-  // Handle touch events for mobile swipe
-  const touchStartX = useRef<number | null>(null);
-  
-  const handleTouchStart = (e: React.TouchEvent) => {
-    touchStartX.current = e.touches[0].clientX;
-    setShowMobileControls(true);
-  };
-  
-  const handleTouchEnd = (e: React.TouchEvent) => {
-    if (touchStartX.current === null) return;
-    
-    const touchEndX = e.changedTouches[0].clientX;
-    const diff = touchStartX.current - touchEndX;
-    
-    // Swipe threshold
-    if (Math.abs(diff) > 50) {
-      if (diff > 0) {
-        // Swipe left - next step
-        nextStep();
-      } else {
-        // Swipe right - previous step
-        prevStep();
-      }
-    }
-    
-    touchStartX.current = null;
-  };
 
   return (
     <section id="routine" className="py-16 md:py-24">
