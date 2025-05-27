@@ -10,59 +10,34 @@ const RoutineTimeline = () => {
   const routineSteps = [
     {
       icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M7 16a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v10Z" />
-          <path d="M12 14v-4" />
-          <path d="M10 3v3" />
-          <path d="M14 3v3" />
-        </svg>
-      ),
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fillRule="evenodd" clipRule="evenodd" d="M4.58167 6.01037C5.27244 4.99469 6.71529 5.03259 7.44359 5.90937C8.42557 7.09155 9.80993 8.24983 12.0002 8.24983C14.2279 8.24983 15.5911 7.31995 16.5187 6.15371C17.2401 5.24674 18.7776 5.10103 19.5337 6.17693C20.1521 7.05691 20.8281 7.75783 22.1624 8.05353C22.5668 8.14315 22.822 8.54363 22.7324 8.94803C22.6428 9.35244 22.2423 9.60762 21.8379 9.518C19.9969 9.11001 19.0392 8.08213 18.3064 7.0394C18.2578 6.97023 18.171 6.91916 18.04 6.9215C17.904 6.92393 17.7732 6.98622 17.6927 7.08746C16.5174 8.56506 14.7413 9.74983 12.0002 9.74983C9.1773 9.74983 7.41088 8.21753 6.28974 6.86782L6.86667 6.3886L6.28974 6.86782C6.2245 6.78928 6.1275 6.7479 6.02885 6.74989C5.93349 6.75182 5.86412 6.79199 5.822 6.85393C5.07583 7.95107 4.11857 9.0845 2.16243 9.518C1.75803 9.60762 1.35754 9.35244 1.26793 8.94803C1.17831 8.54363 1.43349 8.14315 1.83789 8.05353C3.2498 7.74063 3.92606 6.97435 4.58167 6.01037ZM4.58167 11.0104C5.27244 9.99469 6.71529 10.0326 7.44359 10.9094C8.42557 12.0915 9.80993 13.2498 12.0002 13.2498C14.2279 13.2498 15.5911 12.3199 16.5187 11.1537C17.2401 10.2467 18.7776 10.101 19.5337 11.1769C20.1521 12.0569 20.8281 12.7578 22.1624 13.0535C22.5668 13.1431 22.822 13.5436 22.7324 13.948C22.6428 14.3524 22.2423 14.6076 21.8379 14.518C19.9969 14.11 19.0392 13.0821 18.3064 12.0394C18.2578 11.9702 18.171 11.9192 18.04 11.9215C17.904 11.9239 17.7732 11.9862 17.6927 12.0875C16.5174 13.5651 14.7413 14.7498 12.0002 14.7498C9.1773 14.7498 7.41088 13.2175 6.28974 11.8678C6.2245 11.7893 6.1275 11.7479 6.02885 11.7499C5.93349 11.7518 5.86412 11.792 5.822 11.8539C5.07583 12.9511 4.11857 14.0845 2.16243 14.518C1.75803 14.6076 1.35754 14.3524 1.26793 13.948C1.17831 13.5436 1.43349 13.1431 1.83789 13.0535C3.2498 12.7406 3.92606 11.9744 4.58167 11.0104ZM4.58167 16.0104C5.27244 14.9947 6.71529 15.0326 7.44359 15.9094C8.42557 17.0915 9.80993 18.2498 12.0002 18.2498C14.2279 18.2498 15.5911 17.3199 16.5187 16.1537C17.2401 15.2467 18.7776 15.101 19.5337 16.1769C20.1521 17.0569 20.8281 17.7578 22.1624 18.0535C22.5668 18.1431 22.822 18.5436 22.7324 18.948C22.6428 19.3524 22.2423 19.6076 21.8379 19.518C19.9969 19.11 19.0392 18.0821 18.3064 17.0394C18.2578 16.9702 18.171 16.9192 18.04 16.9215C17.904 16.9239 17.7732 16.9862 17.6927 17.0875C16.5174 18.5651 14.7413 19.7498 12.0002 19.7498C9.1773 19.7498 7.41088 18.2175 6.28974 16.8678C6.2245 16.7893 6.1275 16.7479 6.02885 16.7499C5.93349 16.7518 5.86412 16.792 5.822 16.8539C5.07583 17.9511 4.11857 19.0845 2.16243 19.518C1.75803 19.6076 1.35754 19.3524 1.26793 18.948C1.17831 18.5436 1.43349 18.1431 1.83789 18.0535C3.2498 17.7406 3.92606 16.9744 4.58167 16.0104Z" fill="#ff914d"></path> </g></svg>),
       step: 'Cleanse',
       description: 'Remove impurities and prepare skin for treatment.'
     },
     {
       icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M8.8 20v-4.1l1.9.2a2.3 2.3 0 0 0 2.164-2.1V8.3c0-.5.5-1 1-1h.3c.5 0 1 .5 1 1v5.7c0 1.3.8 2 2.2 2.1h.3" />
-          <path d="M4 10.184V9a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v1.184a3 3 0 0 1 0 5.633V16a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3v-.183a3 3 0 0 1 0-5.633Z" />
-        </svg>
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fillRule="evenodd" clipRule="evenodd" d="M12.9914 2.86904C12.9914 2.86899 12.9914 2.86895 12.9914 2.86891C12.9256 2.37165 12.5016 2 12 2C11.4983 2 11.0743 2.37171 11.0086 2.86904L11.0086 2.86932L11.0085 2.86992L11.0075 2.87704L11.0029 2.91013C10.9985 2.94035 10.9917 2.98656 10.9822 3.04699C10.9633 3.16792 10.9339 3.34537 10.8927 3.56523C10.81 4.00611 10.6812 4.61161 10.4967 5.27082C10.1127 6.64363 9.5417 8.04408 8.79289 8.79289C8.04408 9.5417 6.64363 10.1127 5.27082 10.4967C4.61161 10.6812 4.00611 10.81 3.56523 10.8927C3.34537 10.9339 3.16792 10.9633 3.04699 10.9822C2.98656 10.9917 2.94035 10.9985 2.91013 11.0029L2.87704 11.0075L2.86992 11.0085L2.86932 11.0086C2.86923 11.0086 2.86913 11.0086 2.86904 11.0086C2.86899 11.0086 2.86895 11.0086 2.86891 11.0086C2.37165 11.0744 2 11.4984 2 12C2 12.5017 2.37171 12.9257 2.86904 12.9914L2.86932 12.9914L2.86992 12.9915L2.87704 12.9925L2.91013 12.9971C2.94035 13.0015 2.98656 13.0083 3.04699 13.0178C3.16792 13.0367 3.34537 13.0661 3.56523 13.1073C4.00611 13.19 4.61161 13.3188 5.27082 13.5033C6.64363 13.8873 8.04408 14.4583 8.79289 15.2071C9.5417 15.9559 10.1127 17.3564 10.4967 18.7292C10.6812 19.3884 10.81 19.9939 10.8927 20.4348C10.9339 20.6546 10.9633 20.8321 10.9822 20.953C10.9917 21.0134 10.9985 21.0596 11.0029 21.0899L11.0075 21.123L11.0085 21.1301L11.0086 21.1307C11.0086 21.1308 11.0086 21.1309 11.0086 21.131C11.0086 21.131 11.0086 21.131 11.0086 21.131C11.0743 21.6283 11.4983 22 12 22C12.5017 22 12.9257 21.6283 12.9914 21.131L12.9914 21.1307L12.9915 21.1301L12.9925 21.123L12.9971 21.0899C13.0015 21.0596 13.0083 21.0134 13.0178 20.953C13.0367 20.8321 13.0661 20.6546 13.1073 20.4348C13.19 19.9939 13.3188 19.3884 13.5033 18.7292C13.8873 17.3564 14.4583 15.9559 15.2071 15.2071C15.9559 14.4583 17.3564 13.8873 18.7292 13.5033C19.3884 13.3188 19.9939 13.19 20.4348 13.1073C20.6546 13.0661 20.8321 13.0367 20.953 13.0178C21.0134 13.0083 21.0596 13.0015 21.0899 12.9971L21.123 12.9925L21.1301 12.9915L21.1307 12.9914C21.1308 12.9914 21.1309 12.9914 21.131 12.9914C21.131 12.9914 21.131 12.9914 21.131 12.9914C21.6283 12.9257 22 12.5017 22 12C22 11.4983 21.6283 11.0743 21.131 11.0086L21.1307 11.0086L21.1301 11.0085L21.123 11.0075L21.0899 11.0029C21.0596 10.9985 21.0134 10.9917 20.953 10.9822C20.8321 10.9633 20.6546 10.9339 20.4348 10.8927C19.9939 10.81 19.3884 10.6812 18.7292 10.4967C17.3564 10.1127 15.9559 9.5417 15.2071 8.79289C14.4583 8.04408 13.8873 6.64363 13.5033 5.27082C13.3188 4.61161 13.19 4.00611 13.1073 3.56523C13.0661 3.34537 13.0367 3.16792 13.0178 3.04699C13.0083 2.98656 13.0015 2.94035 12.9971 2.91013L12.9925 2.87704L12.9915 2.86992L12.9914 2.86932C12.9914 2.86923 12.9914 2.86913 12.9914 2.86904ZM16.8722 12C15.7644 11.5928 14.6021 11.0163 13.7929 10.2071C12.9837 9.39792 12.4072 8.23564 12 7.12776C11.5928 8.23564 11.0163 9.39792 10.2071 10.2071C9.39792 11.0163 8.23564 11.5928 7.12776 12C8.23564 12.4072 9.39792 12.9837 10.2071 13.7929C11.0163 14.6021 11.5928 15.7644 12 16.8722C12.4072 15.7644 12.9837 14.6021 13.7929 13.7929C14.6021 12.9837 15.7644 12.4072 16.8722 12Z" fill="#ff914d"></path> </g></svg>
       ),
       step: 'Toner',
       description: 'Balance pH levels and hydrate the skin.'
     },
     {
       icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M10 7.5a1.5 1.5 0 0 1 4 0 1.5 1.5 0 0 1-4 0" />
-          <path d="M8.26 3.75a2 2 0 0 1 1.98-.51l5.49 1.5a2 2 0 0 1 1.45 2.41L14.5 18.24a2 2 0 0 1-1.96 1.54H7.7a2 2 0 0 1-1.96-1.54L3.06 7.15a2 2 0 0 1 1.45-2.41l5.49-1.5a2 2 0 0 1 1.98.51Z" />
-        </svg>
+        <svg fill="#ff914d" width="256px" height="256px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M13.208,23a7.792,7.792,0,0,0,6.3-12.375l-6.7-9.213a1.038,1.038,0,0,0-1.618,0l-6.7,9.213A7.792,7.792,0,0,0,10.792,23ZM5,15.208A5.757,5.757,0,0,1,6.107,11.8L12,3.7l5.893,8.1A5.792,5.792,0,0,1,13.208,21H10.792A5.8,5.8,0,0,1,5,15.208Zm6.245,4.042a5.238,5.238,0,0,1-4.63-2.779,1,1,0,1,1,1.764-.942,3.242,3.242,0,0,0,2.866,1.721,1,1,0,0,1,0,2Z"></path></g></svg>
       ),
       step: 'Serum',
       description: 'Deliver concentrated active ingredients to target specific concerns.'
     },
     {
       icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z" />
-          <circle cx="12" cy="10" r="3" />
-        </svg>
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4.5 22V17M4.5 7V2M2 4.5H7M2 19.5H7M13 3L11.2658 7.50886C10.9838 8.24209 10.8428 8.60871 10.6235 8.91709C10.4292 9.1904 10.1904 9.42919 9.91709 9.62353C9.60871 9.84281 9.24209 9.98381 8.50886 10.2658L4 12L8.50886 13.7342C9.24209 14.0162 9.60871 14.1572 9.91709 14.3765C10.1904 14.5708 10.4292 14.8096 10.6235 15.0829C10.8428 15.3913 10.9838 15.7579 11.2658 16.4911L13 21L14.7342 16.4911C15.0162 15.7579 15.1572 15.3913 15.3765 15.0829C15.5708 14.8096 15.8096 14.5708 16.0829 14.3765C16.3913 14.1572 16.7579 14.0162 17.4911 13.7342L22 12L17.4911 10.2658C16.7579 9.98381 16.3913 9.8428 16.0829 9.62353C15.8096 9.42919 15.5708 9.1904 15.3765 8.91709C15.1572 8.60871 15.0162 8.24209 14.7342 7.50886L13 3Z" stroke="#ff914d" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>
       ),
       step: 'Moisturize',
       description: 'Lock in hydration and strengthen the skin barrier.'
     },
     {
       icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <circle cx="12" cy="12" r="4" />
-          <path d="M12 2v2" />
-          <path d="M12 20v2" />
-          <path d="m4.93 4.93 1.41 1.41" />
-          <path d="m17.66 17.66 1.41 1.41" />
-          <path d="M2 12h2" />
-          <path d="M20 12h2" />
-          <path d="m6.34 17.66-1.41 1.41" />
-          <path d="m19.07 4.93-1.41 1.41" />
-        </svg>
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 17.75C10.8628 17.75 9.75106 17.4128 8.80547 16.781C7.85989 16.1491 7.1229 15.2511 6.6877 14.2004C6.25249 13.1498 6.13862 11.9936 6.36049 10.8782C6.58235 9.76284 7.12999 8.73829 7.93414 7.93414C8.73829 7.12999 9.76284 6.58235 10.8782 6.36049C11.9936 6.13862 13.1498 6.25249 14.2004 6.6877C15.2511 7.1229 16.1491 7.85989 16.781 8.80547C17.4128 9.75106 17.75 10.8628 17.75 12C17.7474 13.5242 17.1407 14.9852 16.0629 16.0629C14.9852 17.1407 13.5242 17.7474 12 17.75ZM12 7.75C11.1594 7.75 10.3377 7.99926 9.63883 8.46626C8.93992 8.93325 8.39519 9.59701 8.07351 10.3736C7.75184 11.1502 7.66768 12.0047 7.83167 12.8291C7.99565 13.6536 8.40043 14.4108 8.9948 15.0052C9.58917 15.5996 10.3464 16.0044 11.1709 16.1683C11.9953 16.3323 12.8498 16.2482 13.6264 15.9265C14.403 15.6048 15.0668 15.0601 15.5337 14.3612C16.0007 13.6623 16.25 12.8406 16.25 12C16.2474 10.8736 15.7987 9.79417 15.0023 8.99772C14.2058 8.20126 13.1264 7.75264 12 7.75Z" fill="#ff914d"></path> <path d="M12 5C11.8019 4.99741 11.6126 4.91756 11.4725 4.77747C11.3324 4.63737 11.2526 4.44811 11.25 4.25V2.75C11.25 2.55109 11.329 2.36032 11.4697 2.21967C11.6103 2.07902 11.8011 2 12 2C12.1989 2 12.3897 2.07902 12.5303 2.21967C12.671 2.36032 12.75 2.55109 12.75 2.75V4.25C12.7474 4.44811 12.6676 4.63737 12.5275 4.77747C12.3874 4.91756 12.1981 4.99741 12 5Z" fill="#ff914d"></path> <path d="M12 22C11.8019 21.9974 11.6126 21.9176 11.4725 21.7775C11.3324 21.6374 11.2526 21.4481 11.25 21.25V19.75C11.25 19.5511 11.329 19.3603 11.4697 19.2197C11.6103 19.079 11.8011 19 12 19C12.1989 19 12.3897 19.079 12.5303 19.2197C12.671 19.3603 12.75 19.5511 12.75 19.75V21.25C12.7474 21.4481 12.6676 21.6374 12.5275 21.7775C12.3874 21.9176 12.1981 21.9974 12 22Z" fill="#ff914d"></path> <path d="M21.25 12.75H19.75C19.5511 12.75 19.3603 12.671 19.2197 12.5303C19.079 12.3897 19 12.1989 19 12C19 11.8011 19.079 11.6103 19.2197 11.4697C19.3603 11.329 19.5511 11.25 19.75 11.25H21.25C21.4489 11.25 21.6397 11.329 21.7803 11.4697C21.921 11.6103 22 11.8011 22 12C22 12.1989 21.921 12.3897 21.7803 12.5303C21.6397 12.671 21.4489 12.75 21.25 12.75Z" fill="#ff914d"></path> <path d="M4.25 12.75H2.75C2.55109 12.75 2.36032 12.671 2.21967 12.5303C2.07902 12.3897 2 12.1989 2 12C2 11.8011 2.07902 11.6103 2.21967 11.4697C2.36032 11.329 2.55109 11.25 2.75 11.25H4.25C4.44891 11.25 4.63968 11.329 4.78033 11.4697C4.92098 11.6103 5 11.8011 5 12C5 12.1989 4.92098 12.3897 4.78033 12.5303C4.63968 12.671 4.44891 12.75 4.25 12.75Z" fill="#ff914d"></path> <path d="M6.50001 7.24995C6.30707 7.2352 6.12758 7.14545 6.00001 6.99995L4.91001 5.99995C4.83844 5.92838 4.78167 5.84341 4.74293 5.7499C4.7042 5.65639 4.68427 5.55617 4.68427 5.45495C4.68427 5.35373 4.7042 5.25351 4.74293 5.16C4.78167 5.06649 4.83844 4.98152 4.91001 4.90995C4.98158 4.83838 5.06655 4.78161 5.16006 4.74287C5.25357 4.70414 5.3538 4.6842 5.45501 4.6842C5.55623 4.6842 5.65645 4.70414 5.74996 4.74287C5.84347 4.78161 5.92844 4.83838 6.00001 4.90995L7.00001 5.99995C7.123 6.13746 7.19099 6.31547 7.19099 6.49995C7.19099 6.68443 7.123 6.86244 7.00001 6.99995C6.87244 7.14545 6.69295 7.2352 6.50001 7.24995Z" fill="#ff914d"></path> <path d="M18.56 19.31C18.4615 19.3104 18.3638 19.2912 18.2728 19.2534C18.1818 19.2157 18.0993 19.1601 18.03 19.09L17 18C16.9332 17.86 16.9114 17.7028 16.9376 17.5499C16.9638 17.3971 17.0368 17.2561 17.1465 17.1464C17.2561 17.0368 17.3971 16.9638 17.55 16.9376C17.7028 16.9113 17.8601 16.9331 18 17L19.09 18C19.2305 18.1406 19.3094 18.3312 19.3094 18.53C19.3094 18.7287 19.2305 18.9194 19.09 19.06C19.0233 19.1355 18.9419 19.1967 18.8508 19.2397C18.7597 19.2827 18.6607 19.3066 18.56 19.31Z" fill="#ff914d"></path> <path d="M17.5 7.24995C17.3071 7.2352 17.1276 7.14545 17 6.99995C16.877 6.86244 16.809 6.68443 16.809 6.49995C16.809 6.31547 16.877 6.13746 17 5.99995L18 4.90995C18.1445 4.76541 18.3406 4.6842 18.545 4.6842C18.7494 4.6842 18.9455 4.76541 19.09 4.90995C19.2345 5.05449 19.3158 5.25054 19.3158 5.45495C19.3158 5.65936 19.2345 5.85541 19.09 5.99995L18 6.99995C17.8724 7.14545 17.6929 7.2352 17.5 7.24995Z" fill="#ff914d"></path> <path d="M5.44001 19.31C5.34147 19.3104 5.24383 19.2912 5.15282 19.2534C5.06181 19.2157 4.97926 19.1601 4.91001 19.09C4.76956 18.9494 4.69067 18.7587 4.69067 18.56C4.69067 18.3612 4.76956 18.1706 4.91001 18.03L6.00001 17C6.13997 16.9331 6.2972 16.9113 6.45006 16.9376C6.60293 16.9638 6.7439 17.0368 6.85357 17.1464C6.96324 17.2561 7.03621 17.3971 7.06244 17.5499C7.08866 17.7028 7.06685 17.86 7.00001 18L6.00001 19.09C5.92728 19.1638 5.83985 19.2216 5.74338 19.2595C5.64691 19.2974 5.54356 19.3146 5.44001 19.31Z" fill="#ff914d"></path> </g></svg>
       ),
       step: 'Sunscreen',
       description: 'Protect skin from UV damage and premature aging.'
@@ -71,19 +46,19 @@ const RoutineTimeline = () => {
 
   const lineVariants = {
     hidden: { width: '0%' },
-    visible: { 
-      width: '100%', 
-      transition: { 
+    visible: {
+      width: '100%',
+      transition: {
         duration: 1.5,
         ease: "easeInOut"
-      } 
+      }
     }
   }
 
   return (
     <section id="routine" className="py-16 md:py-24">
       <div className="container">
-        <motion.div 
+        <motion.div
           className="text-center mb-12"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -92,7 +67,7 @@ const RoutineTimeline = () => {
         >
           <h2 className="mb-4">Your Daily Routine</h2>
           <p className="max-w-2xl mx-auto">
-            Follow our science-backed skincare routine for optimal results. 
+            Follow our science-backed skincare routine for optimal results.
             Each step is designed to work synergistically for healthier, more radiant skin.
           </p>
         </motion.div>
@@ -103,20 +78,20 @@ const RoutineTimeline = () => {
             <div className="relative">
               {/* Timeline Line Background */}
               <div className="absolute top-1/2 left-0 w-full h-0.5 bg-black/5 -translate-y-1/2"></div>
-              
+
               {/* Animated Timeline Line */}
-              <motion.div 
+              <motion.div
                 className="absolute top-1/2 left-0 h-0.5 bg-black/30 -translate-y-1/2 origin-left"
                 variants={lineVariants}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: "-100px" }}
               />
-              
+
               {/* Timeline Steps */}
               <div className="flex justify-between relative z-10">
                 {routineSteps.map((step, index) => (
-                  <motion.div 
+                  <motion.div
                     key={step.step}
                     className="flex flex-col items-center"
                     initial={{ opacity: 0, y: 20 }}
@@ -127,22 +102,21 @@ const RoutineTimeline = () => {
                     onMouseEnter={() => setHoveredStep(index)}
                     onMouseLeave={() => setHoveredStep(null)}
                   >
-                    <motion.div 
-                      className={`bg-white p-4 rounded-full border cursor-pointer transition-all duration-300 mb-4 ${
-                        activeStep === index || hoveredStep === index 
-                          ? 'border-black shadow-lg scale-110' 
-                          : 'border-black/10'
-                      }`}
+                    <motion.div
+                      className={`bg-white p-4 rounded-full border cursor-pointer transition-all duration-300 mb-4 ${activeStep === index || hoveredStep === index
+                        ? 'border-black shadow-lg scale-110'
+                        : 'border-black/10'
+                        }`}
                       whileHover={{ scale: 1.1, transition: { duration: 0.2 } }}
                       whileTap={{ scale: 0.95 }}
                     >
-                      <motion.div 
+                      <motion.div
                         className="text-black w-10 h-10 flex items-center justify-center"
-                        animate={{ 
+                        animate={{
                           rotate: activeStep === index ? [0, -10, 10, -5, 5, 0] : 0,
                         }}
-                        transition={{ 
-                          duration: 0.5, 
+                        transition={{
+                          duration: 0.5,
                           ease: "easeInOut",
                           times: [0, 0.2, 0.4, 0.6, 0.8, 1]
                         }}
@@ -151,18 +125,18 @@ const RoutineTimeline = () => {
                       </motion.div>
                     </motion.div>
                     <motion.div className="bg-white px-2 py-1 z-20 text-center w-full">
-                      <motion.h3 
+                      <motion.h3
                         className={`text-lg font-medium mb-1 ${activeStep === index ? 'text-black' : ''}`}
-                        animate={{ 
+                        animate={{
                           scale: activeStep === index ? 1.05 : 1,
                           fontWeight: activeStep === index ? 500 : 400
                         }}
                       >
                         {step.step}
                       </motion.h3>
-                      <motion.p 
+                      <motion.p
                         className="text-sm text-center max-w-[150px] mx-auto"
-                        animate={{ 
+                        animate={{
                           opacity: activeStep === index ? 1 : 0.8
                         }}
                       >
@@ -180,20 +154,20 @@ const RoutineTimeline = () => {
             <div className="relative pl-14">
               {/* Timeline Line Background */}
               <div className="absolute top-0 left-6 h-full w-0.5 bg-black/5 transform -translate-x-1/2 z-0"></div>
-              
+
               {/* Animated Timeline Line */}
-              <motion.div 
+              <motion.div
                 className="absolute top-0 left-6 w-0.5 bg-black/30 transform -translate-x-1/2 origin-top z-0"
                 initial={{ height: 0 }}
                 whileInView={{ height: '100%' }}
                 transition={{ duration: 1.5, ease: "easeInOut" }}
                 viewport={{ once: true, margin: "-100px" }}
               />
-              
+
               {/* Timeline Steps - Vertical Layout */}
               <div className="space-y-12 relative z-10">
                 {routineSteps.map((step, index) => (
-                  <motion.div 
+                  <motion.div
                     key={step.step}
                     className="relative"
                     initial={{ opacity: 0, x: -20 }}
@@ -202,19 +176,18 @@ const RoutineTimeline = () => {
                     viewport={{ once: true, margin: "-100px" }}
                     onClick={() => setActiveStep(activeStep === index ? null : index)}
                   >
-                    <motion.div 
-                      className={`absolute top-0 left-0 -translate-x-[calc(100%+8px)] bg-white p-3 rounded-full border cursor-pointer ${
-                        activeStep === index ? 'border-black shadow-md' : 'border-black/10'
-                      }`}
+                    <motion.div
+                      className={`absolute top-0 left-0 -translate-x-[calc(100%+8px)] bg-white p-3 rounded-full border cursor-pointer ${activeStep === index ? 'border-black shadow-md' : 'border-black/10'
+                        }`}
                       whileTap={{ scale: 0.95 }}
                       whileHover={{ scale: 1.1 }}
                     >
-                      <motion.div 
+                      <motion.div
                         className="text-black w-7 h-7 flex items-center justify-center"
-                        animate={{ 
-                          rotate: activeStep === index ? [0, -10, 10, -5, 5, 0] : 0 
+                        animate={{
+                          rotate: activeStep === index ? [0, -10, 10, -5, 5, 0] : 0
                         }}
-                        transition={{ 
+                        transition={{
                           duration: 0.5,
                           ease: "easeInOut",
                           times: [0, 0.2, 0.4, 0.6, 0.8, 1]
@@ -223,23 +196,22 @@ const RoutineTimeline = () => {
                         {step.icon}
                       </motion.div>
                     </motion.div>
-                    
-                    <motion.div 
-                      className={`bg-white pl-4 py-3 pr-2 rounded-lg border ${
-                        activeStep === index ? 'border-black/20 shadow-sm' : 'border-transparent'
-                      }`}
+
+                    <motion.div
+                      className={`bg-white pl-4 py-3 pr-2 rounded-lg border ${activeStep === index ? 'border-black/20 shadow-sm' : 'border-transparent'
+                        }`}
                     >
-                      <motion.h3 
+                      <motion.h3
                         className={`text-lg font-medium mb-1 ${activeStep === index ? 'text-black' : ''}`}
-                        animate={{ 
+                        animate={{
                           fontWeight: activeStep === index ? 500 : 400
                         }}
                       >
                         {step.step}
                       </motion.h3>
-                      <motion.p 
+                      <motion.p
                         className="text-sm"
-                        animate={{ 
+                        animate={{
                           opacity: activeStep === index ? 1 : 0.8
                         }}
                       >

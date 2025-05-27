@@ -59,6 +59,7 @@
   --muted-foreground: 0 0% 45%;
   --accent: 0 0% 96%;
   --accent-foreground: 0 0% 0%;
+  --orange: #FF914D;
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 100%;
   --border: 0 0% 90%;
@@ -94,6 +95,7 @@
   --muted-foreground: oklch(0.708 0 0);
   --accent: oklch(0.269 0 0);
   --accent-foreground: oklch(0.985 0 0);
+  --orange: #FF914D;
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);

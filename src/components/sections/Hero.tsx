@@ -21,7 +21,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Skincare<span className="text-orange-500">.</span><br />Evolved by Science<span className="text-orange-500">.</span>
+            Skincare<span className="text-[var(--orange)]">.</span><br />Evolved by Science<span className="text-[var(--orange)]">.</span>
           </motion.h1>
           <motion.p
             className="text-lg"
@@ -53,7 +53,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
         >
           <Image
-            src="/duskin-tube.png"
+            src="/hero.png"
             alt="DUSKIN Skincare Product"
             fill
             className="object-contain"

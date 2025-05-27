@@ -23,7 +23,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold tracking-tighter">
-          DUSKIN<span className="text-orange-500">.</span>
+          DUSKIN<span className="text-[var(--orange)]">.</span>
         </Link>
 
         {/* Desktop Navigation */}

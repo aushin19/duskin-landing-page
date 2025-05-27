@@ -13,7 +13,7 @@ const FeaturedProduct = () => {
   ]
   
   return (
-    <section id="products" className="py-16 md:py-24 bg-black/5">
+    <section id="products" className="py-16 md:py-24 bg-[#F5F5F5]">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
           <motion.div 
@@ -24,7 +24,7 @@ const FeaturedProduct = () => {
             viewport={{ once: true, margin: "-100px" }}
           >
             <Image
-              src="https://placehold.co/800x1000/ffffff/000000?text=SERUM+01"
+              src="/hero2.png"
               alt="DUSKIN Serum 01 - Advanced Repair Formula"
               fill
               className="object-contain"

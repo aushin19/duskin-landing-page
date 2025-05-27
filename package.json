@@ -10,11 +10,13 @@
     "setup-stagewise": "npm install @stagewise/toolbar-next --save-dev"
   },
   "dependencies": {
+    "@radix-ui/react-avatar": "^1.1.10",
+    "@radix-ui/react-separator": "^1.1.7",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "critters": "^0.0.23",
     "firebase": "^11.8.1",
-    "framer-motion": "^12.14.0",
+    "framer-motion": "^12.15.0",
     "lucide-react": "^0.511.0",
     "next": "15.3.2",
     "react": "^19.0.0",

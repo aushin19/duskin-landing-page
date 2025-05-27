@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <SocialProof />
-      <TrustedBy />
+      {/* <SocialProof /> */}
+      {/* <TrustedBy /> */}
       <AboutUs />
       <FeaturedProduct />
       <RoutineTimeline />
